@@ -1,0 +1,204 @@
+body {
+  border: 0 none;
+  height: 100%;
+  margin: 0 auto;
+  outline: 0 none;
+  padding: 0;
+  width: 100%;
+  background: #e2e5ea url(../../images/theme/background.png) repeat-x;
+}
+* {
+  margin: 0;
+}
+header {
+  width: 973px;
+  margin: 0 auto;
+  /* margin-top: 20px; */
+  height: auto;
+  overflow: hidden;
+}
+
+.blue_header {
+  width: 100%;
+  padding-top: 20px;
+  background: #206c9c;
+}
+
+.ticker {
+  width: 970px;
+  margin: 0 auto;
+  background: none repeat scroll 0 0 white;
+  border: 3px solid rgb(19, 144, 192);
+  border-radius: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+header .headerFullInfo {
+  float: left;
+  margin-left: 7px;
+}
+
+.jobs {
+  margin: 0 auto;
+  margin-top: 15px;
+  width: 973px;
+  height: auto;
+  /* overflow: hidden; */
+  margin-bottom: 20px;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+#_atssh {
+  width: 1px !important;
+  height: 1px !important;
+  border: 0 !important;
+  visibility: hidden;
+  height: 1px;
+  width: 1px;
+  position: absolute;
+  top: -9999px;
+  z-index: 100000;
+}
+
+#footer {
+  clear: left;
+  font-size: 11px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  width: 980px;
+}
+
+.content {
+  position: relative;
+  width: 973px;
+  margin: 0 auto;
+  margin-top: 10px;
+  height: auto;
+  overflow: hidden;
+}
+
+.fb_reset {
+  background: none;
+  border: 0;
+  border-spacing: 0;
+  color: #000;
+  cursor: auto;
+  direction: ltr;
+  font-family: "lucida grande", tahoma, verdana, arial, sans-serif;
+  font-size: 11px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  letter-spacing: normal;
+  line-height: 1;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-indent: 0;
+  text-shadow: none;
+  text-transform: none;
+  visibility: visible;
+  white-space: normal;
+  word-spacing: normal;
+}
+
+a,
+img {
+  border: 0px;
+}
+a {
+  text-decoration: none;
+}
+a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+header .logo {
+  float: left;
+  margin-top: 20px;
+  margin-right: 18px;
+}
+
+header .headerFullInfo {
+  float: left;
+  margin-left: 7px;
+}
+
+header .noneMenu {
+  height: auto;
+  overflow: hidden;
+  display: block;
+}
+
+.mainNav {
+  background: url(../../images/theme/bgMainNav.png) no-repeat scroll 0 0
+    rgba(0, 0, 0, 0);
+  padding: 5px 0 5px 30px;
+  width: 759px;
+  height: 21px;
+  margin-top: 15px;
+}
+
+.mainNav li {
+  border-right: 1px solid #77b2cf;
+  display: inline;
+  list-style: outside none none;
+  margin-right: 15px;
+  padding-right: 15px;
+  font-size: 14px;
+}
+header li,
+.left li,
+.jobs li {
+  list-style: none outside none;
+}
+li {
+  float: left;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.lc-frame-launcher {
+  position: fixed;
+  left: 30px;
+  bottom: 20px;
+}
+.lc-frame-launcher {
+  overflow: hidden;
+  z-index: 1000000;
+  width: 60px;
+  height: 110px;
+}
+.lc-frame-launcher,
+.lc-frame-widget {
+  position: fixed;
+  border-radius: 0;
+  border: none;
+  background-color: transparent;
+}
+iframe {
+  border-width: 2px;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}
